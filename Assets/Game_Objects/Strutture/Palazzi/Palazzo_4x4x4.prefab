@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 6309124205372150011}
   - component: {fileID: 8613162678486219342}
   - component: {fileID: 5219136625839515483}
-  - component: {fileID: 8665610782030740958}
   m_Layer: 0
   m_Name: Cube (51)
   m_TagString: Untagged
@@ -113,18 +112,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8665610782030740958
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55166232688929245}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &57660747748927988
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +125,6 @@ GameObject:
   - component: {fileID: 5724677840467915868}
   - component: {fileID: 8514996206941520084}
   - component: {fileID: 8324897428734434965}
-  - component: {fileID: 6173457703577617072}
   m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -238,18 +224,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &6173457703577617072
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57660747748927988}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &176985027231056699
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +237,6 @@ GameObject:
   - component: {fileID: 3733870516105361519}
   - component: {fileID: 3427148267430999053}
   - component: {fileID: 7363044857993368910}
-  - component: {fileID: 7601530017720090422}
   m_Layer: 0
   m_Name: Cube (35)
   m_TagString: Untagged
@@ -363,18 +336,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &7601530017720090422
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176985027231056699}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &236565272002448101
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +349,6 @@ GameObject:
   - component: {fileID: 7591335223702650765}
   - component: {fileID: 6560981177988388974}
   - component: {fileID: 1413737593658078628}
-  - component: {fileID: 8595213526581759790}
   m_Layer: 0
   m_Name: Cube (59)
   m_TagString: Untagged
@@ -488,18 +448,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8595213526581759790
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236565272002448101}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &309634452494093579
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +461,6 @@ GameObject:
   - component: {fileID: 9004670442738708113}
   - component: {fileID: 7001874187923648025}
   - component: {fileID: 6565724324905942382}
-  - component: {fileID: 497271149352077485}
   m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Untagged
@@ -613,18 +560,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &497271149352077485
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309634452494093579}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &312001534746283911
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +573,6 @@ GameObject:
   - component: {fileID: 3218671970174666512}
   - component: {fileID: 8779354847671835525}
   - component: {fileID: 5805084288231994016}
-  - component: {fileID: 4027565747588385190}
   m_Layer: 0
   m_Name: Cube (53)
   m_TagString: Untagged
@@ -738,18 +672,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &4027565747588385190
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312001534746283911}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &406289337119369750
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +685,6 @@ GameObject:
   - component: {fileID: 5996665221162645613}
   - component: {fileID: 6877884461941460202}
   - component: {fileID: 6072092728330569254}
-  - component: {fileID: 1609331649096090618}
   m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
@@ -863,18 +784,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &1609331649096090618
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406289337119369750}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &570023052864502823
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +797,6 @@ GameObject:
   - component: {fileID: 545570239221519697}
   - component: {fileID: 5406605542865798797}
   - component: {fileID: 526444158183391804}
-  - component: {fileID: 5798912884180932755}
   m_Layer: 0
   m_Name: Cube (30)
   m_TagString: Untagged
@@ -988,18 +896,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &5798912884180932755
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570023052864502823}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &594811922415679340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,7 +909,6 @@ GameObject:
   - component: {fileID: 4368530000458481309}
   - component: {fileID: 2903009392780782134}
   - component: {fileID: 7088704614714978173}
-  - component: {fileID: 7744724049910138701}
   m_Layer: 0
   m_Name: Cube (32)
   m_TagString: Untagged
@@ -1113,18 +1008,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &7744724049910138701
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594811922415679340}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &811468460658668593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,7 +1021,6 @@ GameObject:
   - component: {fileID: 7222762131041059534}
   - component: {fileID: 2238458461669478915}
   - component: {fileID: 6568150637025241889}
-  - component: {fileID: 6553259664257293886}
   m_Layer: 0
   m_Name: Cube (60)
   m_TagString: Untagged
@@ -1238,18 +1120,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &6553259664257293886
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811468460658668593}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1102898861119547701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,7 +1133,6 @@ GameObject:
   - component: {fileID: 2290183820428859979}
   - component: {fileID: 5943455490501988341}
   - component: {fileID: 1562121977787370055}
-  - component: {fileID: 6932347418373143816}
   m_Layer: 0
   m_Name: Cube (21)
   m_TagString: Untagged
@@ -1363,18 +1232,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &6932347418373143816
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102898861119547701}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1187969806334686717
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,7 +1245,6 @@ GameObject:
   - component: {fileID: 7127363872632151465}
   - component: {fileID: 6867242807816772341}
   - component: {fileID: 4379249258905140809}
-  - component: {fileID: 1764370583051781108}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -1488,18 +1344,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &1764370583051781108
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187969806334686717}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1260105521821523201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,7 +1357,6 @@ GameObject:
   - component: {fileID: 2421264278678616594}
   - component: {fileID: 6613697241709277495}
   - component: {fileID: 4503741707071337151}
-  - component: {fileID: 5478077047517062170}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -1613,18 +1456,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &5478077047517062170
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260105521821523201}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1306788246012330932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,7 +1469,6 @@ GameObject:
   - component: {fileID: 5556821416581792332}
   - component: {fileID: 6386101940176200782}
   - component: {fileID: 2648191005575413046}
-  - component: {fileID: 5176380979548992954}
   m_Layer: 0
   m_Name: Cube (31)
   m_TagString: Untagged
@@ -1738,18 +1568,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &5176380979548992954
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306788246012330932}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1529567477691547138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,7 +1581,6 @@ GameObject:
   - component: {fileID: 3369593327320124053}
   - component: {fileID: 8419086397731725569}
   - component: {fileID: 1496205069995239918}
-  - component: {fileID: 1568409221908269664}
   m_Layer: 0
   m_Name: Cube (17)
   m_TagString: Untagged
@@ -1863,18 +1680,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &1568409221908269664
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529567477691547138}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &1652375360130771606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,7 +1693,6 @@ GameObject:
   - component: {fileID: 1274961425571757597}
   - component: {fileID: 206191161873052858}
   - component: {fileID: 6287122972551768779}
-  - component: {fileID: 8590717954672232616}
   m_Layer: 0
   m_Name: Cube (36)
   m_TagString: Untagged
@@ -1988,18 +1792,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8590717954672232616
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652375360130771606}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &2079407144713979987
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,7 +1805,6 @@ GameObject:
   - component: {fileID: 6373961332372189281}
   - component: {fileID: 3595130080858541729}
   - component: {fileID: 5292753216782664669}
-  - component: {fileID: 981916152180556608}
   m_Layer: 0
   m_Name: Cube (38)
   m_TagString: Untagged
@@ -2113,18 +1904,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &981916152180556608
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2079407144713979987}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &2641227109607895032
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,7 +1917,6 @@ GameObject:
   - component: {fileID: 4138803565460097288}
   - component: {fileID: 6500528172295171613}
   - component: {fileID: 3244062034194726535}
-  - component: {fileID: 8815766017054950020}
   m_Layer: 0
   m_Name: Cube (63)
   m_TagString: Untagged
@@ -2238,18 +2016,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8815766017054950020
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2641227109607895032}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &2689336858577923700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,7 +2029,6 @@ GameObject:
   - component: {fileID: 3618714429959942825}
   - component: {fileID: 5092940781581920377}
   - component: {fileID: 6631239406299395190}
-  - component: {fileID: 8207425255595031779}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -2363,18 +2128,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8207425255595031779
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2689336858577923700}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &2778640719330782504
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,7 +2141,6 @@ GameObject:
   - component: {fileID: 6867054060376540882}
   - component: {fileID: 6941123613972503113}
   - component: {fileID: 1152017641516483766}
-  - component: {fileID: 5960034537486688526}
   m_Layer: 0
   m_Name: Cube (34)
   m_TagString: Untagged
@@ -2488,18 +2240,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &5960034537486688526
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2778640719330782504}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &3289894548911939243
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,7 +2253,6 @@ GameObject:
   - component: {fileID: 739837335813091160}
   - component: {fileID: 2530773595359153972}
   - component: {fileID: 4172342442679085099}
-  - component: {fileID: 3276403071836543400}
   m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Untagged
@@ -2613,18 +2352,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &3276403071836543400
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3289894548911939243}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &3378278635996529306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,7 +2365,6 @@ GameObject:
   - component: {fileID: 4709303267273339782}
   - component: {fileID: 4180649621489721983}
   - component: {fileID: 2673697141505174992}
-  - component: {fileID: 2451410683410671469}
   m_Layer: 0
   m_Name: Cube (23)
   m_TagString: Untagged
@@ -2738,18 +2464,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &2451410683410671469
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3378278635996529306}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &3583136663071275407
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,7 +2477,6 @@ GameObject:
   - component: {fileID: 3051736263283799739}
   - component: {fileID: 1392076629544832824}
   - component: {fileID: 7818696281284072868}
-  - component: {fileID: 541574552738284626}
   m_Layer: 0
   m_Name: Cube (14)
   m_TagString: Untagged
@@ -2863,18 +2576,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &541574552738284626
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3583136663071275407}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &3658209601961975938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2888,7 +2589,6 @@ GameObject:
   - component: {fileID: 2477608934317737036}
   - component: {fileID: 3609579032520239926}
   - component: {fileID: 6716482930539206574}
-  - component: {fileID: 6041176896399468733}
   m_Layer: 0
   m_Name: Cube (43)
   m_TagString: Untagged
@@ -2988,18 +2688,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &6041176896399468733
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3658209601961975938}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &3713771433174285679
 GameObject:
   m_ObjectHideFlags: 0
@@ -3013,7 +2701,6 @@ GameObject:
   - component: {fileID: 5463847669659097699}
   - component: {fileID: 5032648930494334682}
   - component: {fileID: 5652218383069571713}
-  - component: {fileID: 4448013185127915030}
   m_Layer: 0
   m_Name: Cube (16)
   m_TagString: Untagged
@@ -3113,18 +2800,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &4448013185127915030
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3713771433174285679}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &3751179495476618034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,7 +2813,6 @@ GameObject:
   - component: {fileID: 3476085856950406802}
   - component: {fileID: 7745987080975563982}
   - component: {fileID: 7713170603539532127}
-  - component: {fileID: 9176522950244601005}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -3238,18 +2912,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &9176522950244601005
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3751179495476618034}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &3890676586350387700
 GameObject:
   m_ObjectHideFlags: 0
@@ -3263,7 +2925,6 @@ GameObject:
   - component: {fileID: 9158482286133692099}
   - component: {fileID: 1715697133705902856}
   - component: {fileID: 8879705163323424300}
-  - component: {fileID: 7238568754341643683}
   m_Layer: 0
   m_Name: Cube (40)
   m_TagString: Untagged
@@ -3363,18 +3024,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &7238568754341643683
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3890676586350387700}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &3975500211743664421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3388,7 +3037,6 @@ GameObject:
   - component: {fileID: 6566673354993981963}
   - component: {fileID: 4167246391173890057}
   - component: {fileID: 7491111981151138134}
-  - component: {fileID: 241418711398472183}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -3488,18 +3136,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &241418711398472183
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3975500211743664421}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &4201446638024641509
 GameObject:
   m_ObjectHideFlags: 0
@@ -3513,7 +3149,6 @@ GameObject:
   - component: {fileID: 5360682204812516129}
   - component: {fileID: 6750547425963112243}
   - component: {fileID: 3830750288954961487}
-  - component: {fileID: 9161725535536123219}
   m_Layer: 0
   m_Name: Cube (24)
   m_TagString: Untagged
@@ -3613,18 +3248,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &9161725535536123219
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4201446638024641509}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &4382642292296486946
 GameObject:
   m_ObjectHideFlags: 0
@@ -3638,7 +3261,6 @@ GameObject:
   - component: {fileID: 7266365550987956953}
   - component: {fileID: 5994841971979243744}
   - component: {fileID: 630853986643105782}
-  - component: {fileID: 457132903439544394}
   m_Layer: 0
   m_Name: Cube (22)
   m_TagString: Untagged
@@ -3738,18 +3360,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &457132903439544394
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4382642292296486946}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &4484082144127802797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3763,7 +3373,6 @@ GameObject:
   - component: {fileID: 68806434295679001}
   - component: {fileID: 6441639484784350407}
   - component: {fileID: 7079489756458743696}
-  - component: {fileID: 8393830289377054376}
   m_Layer: 0
   m_Name: Cube (57)
   m_TagString: Untagged
@@ -3863,18 +3472,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8393830289377054376
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4484082144127802797}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &4615954144623268878
 GameObject:
   m_ObjectHideFlags: 0
@@ -3888,7 +3485,6 @@ GameObject:
   - component: {fileID: 9156528174602741998}
   - component: {fileID: 18734627458459601}
   - component: {fileID: 7912557157264967488}
-  - component: {fileID: 5896055301769514167}
   m_Layer: 0
   m_Name: Cube (39)
   m_TagString: Untagged
@@ -3988,18 +3584,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &5896055301769514167
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4615954144623268878}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &4658722148558393109
 GameObject:
   m_ObjectHideFlags: 0
@@ -4013,7 +3597,6 @@ GameObject:
   - component: {fileID: 2930921425083031371}
   - component: {fileID: 7833446482895209955}
   - component: {fileID: 1673283644463126286}
-  - component: {fileID: 3817360927046671656}
   m_Layer: 0
   m_Name: Cube (41)
   m_TagString: Untagged
@@ -4113,18 +3696,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &3817360927046671656
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4658722148558393109}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &4751629172095247047
 GameObject:
   m_ObjectHideFlags: 0
@@ -4138,7 +3709,6 @@ GameObject:
   - component: {fileID: 7262596557900124008}
   - component: {fileID: 196576766027652056}
   - component: {fileID: 3329663167517237299}
-  - component: {fileID: 4953729769399137543}
   m_Layer: 0
   m_Name: Cube (18)
   m_TagString: Untagged
@@ -4238,18 +3808,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &4953729769399137543
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4751629172095247047}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &5017302910746022710
 GameObject:
   m_ObjectHideFlags: 0
@@ -4263,7 +3821,6 @@ GameObject:
   - component: {fileID: 3665552008995343256}
   - component: {fileID: 179810569226046970}
   - component: {fileID: 5118221533829599991}
-  - component: {fileID: 8217327391713508165}
   m_Layer: 0
   m_Name: Cube (44)
   m_TagString: Untagged
@@ -4363,18 +3920,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8217327391713508165
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5017302910746022710}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &5266692632600193596
 GameObject:
   m_ObjectHideFlags: 0
@@ -4388,7 +3933,6 @@ GameObject:
   - component: {fileID: 7364237603558890}
   - component: {fileID: 19087160578635077}
   - component: {fileID: 5984241295849788400}
-  - component: {fileID: 1622157350386512085}
   m_Layer: 0
   m_Name: Cube (15)
   m_TagString: Untagged
@@ -4488,18 +4032,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &1622157350386512085
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5266692632600193596}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &5285160416882631877
 GameObject:
   m_ObjectHideFlags: 0
@@ -4513,7 +4045,6 @@ GameObject:
   - component: {fileID: 4868978985639651394}
   - component: {fileID: 3694781365376135557}
   - component: {fileID: 1569646026245926077}
-  - component: {fileID: 2626143727367782370}
   m_Layer: 0
   m_Name: Cube (33)
   m_TagString: Untagged
@@ -4613,18 +4144,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &2626143727367782370
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5285160416882631877}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &5476788205809395987
 GameObject:
   m_ObjectHideFlags: 0
@@ -4638,7 +4157,6 @@ GameObject:
   - component: {fileID: 8028130775093050951}
   - component: {fileID: 7553852747878673177}
   - component: {fileID: 9061217936351015776}
-  - component: {fileID: 6430081948417820131}
   m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
@@ -4738,18 +4256,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &6430081948417820131
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5476788205809395987}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &5655455310216583986
 GameObject:
   m_ObjectHideFlags: 0
@@ -4763,7 +4269,6 @@ GameObject:
   - component: {fileID: 6505615643085143774}
   - component: {fileID: 4845956631435518114}
   - component: {fileID: 7399092190614921623}
-  - component: {fileID: 2492419154577530480}
   m_Layer: 0
   m_Name: Cube (58)
   m_TagString: Untagged
@@ -4863,18 +4368,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &2492419154577530480
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655455310216583986}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &5684905118179012241
 GameObject:
   m_ObjectHideFlags: 0
@@ -4888,7 +4381,6 @@ GameObject:
   - component: {fileID: 3877340176470092433}
   - component: {fileID: 8965131294213369143}
   - component: {fileID: 7139565195855959871}
-  - component: {fileID: 3568833248004506333}
   m_Layer: 0
   m_Name: Cube (27)
   m_TagString: Untagged
@@ -4988,18 +4480,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &3568833248004506333
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5684905118179012241}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &5996128881870252344
 GameObject:
   m_ObjectHideFlags: 0
@@ -5013,7 +4493,6 @@ GameObject:
   - component: {fileID: 5866585135074279448}
   - component: {fileID: 7383822802801737765}
   - component: {fileID: 1282100547221371147}
-  - component: {fileID: 2097319094190973051}
   m_Layer: 0
   m_Name: Cube (26)
   m_TagString: Untagged
@@ -5113,18 +4592,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &2097319094190973051
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5996128881870252344}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &6026231478071815831
 GameObject:
   m_ObjectHideFlags: 0
@@ -5138,7 +4605,6 @@ GameObject:
   - component: {fileID: 2070131818937104135}
   - component: {fileID: 7658337496930738446}
   - component: {fileID: 8295680196124880626}
-  - component: {fileID: 2636226028592570011}
   m_Layer: 0
   m_Name: Cube (55)
   m_TagString: Untagged
@@ -5238,18 +4704,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &2636226028592570011
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6026231478071815831}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &6148327191917151908
 GameObject:
   m_ObjectHideFlags: 0
@@ -5263,7 +4717,6 @@ GameObject:
   - component: {fileID: 6264641195005528154}
   - component: {fileID: 2739618208001242101}
   - component: {fileID: 8419812389473463281}
-  - component: {fileID: 2381318164372396252}
   m_Layer: 0
   m_Name: Cube (49)
   m_TagString: Untagged
@@ -5363,18 +4816,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &2381318164372396252
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6148327191917151908}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &6254479852782624451
 GameObject:
   m_ObjectHideFlags: 0
@@ -5388,7 +4829,6 @@ GameObject:
   - component: {fileID: 3513911166208756815}
   - component: {fileID: 6517267151735837535}
   - component: {fileID: 4705507607823830089}
-  - component: {fileID: 3527653797858036408}
   m_Layer: 0
   m_Name: Cube (45)
   m_TagString: Untagged
@@ -5488,18 +4928,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &3527653797858036408
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6254479852782624451}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &6524500469346794198
 GameObject:
   m_ObjectHideFlags: 0
@@ -5513,7 +4941,6 @@ GameObject:
   - component: {fileID: 4255054136976235732}
   - component: {fileID: 8664132919529356252}
   - component: {fileID: 545038222402700807}
-  - component: {fileID: 4878584503245760583}
   m_Layer: 0
   m_Name: Cube (29)
   m_TagString: Untagged
@@ -5613,18 +5040,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &4878584503245760583
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6524500469346794198}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &6748276113602609740
 GameObject:
   m_ObjectHideFlags: 0
@@ -5638,7 +5053,6 @@ GameObject:
   - component: {fileID: 6264203033534621927}
   - component: {fileID: 2132738291038720637}
   - component: {fileID: 3952446369883608920}
-  - component: {fileID: 8342048092422341624}
   m_Layer: 0
   m_Name: Cube (19)
   m_TagString: Untagged
@@ -5738,18 +5152,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8342048092422341624
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6748276113602609740}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &6790492715437619024
 GameObject:
   m_ObjectHideFlags: 0
@@ -5763,7 +5165,6 @@ GameObject:
   - component: {fileID: 7418825088428562644}
   - component: {fileID: 3118909833675527982}
   - component: {fileID: 1326844570806788815}
-  - component: {fileID: 3135272994328183067}
   m_Layer: 0
   m_Name: Cube (25)
   m_TagString: Untagged
@@ -5863,18 +5264,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &3135272994328183067
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6790492715437619024}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7009585922126909577
 GameObject:
   m_ObjectHideFlags: 0
@@ -5888,7 +5277,6 @@ GameObject:
   - component: {fileID: 3212448882437549605}
   - component: {fileID: 6124775853419225037}
   - component: {fileID: 7531887604858647198}
-  - component: {fileID: 3392785069188906174}
   m_Layer: 0
   m_Name: Cube (62)
   m_TagString: Untagged
@@ -5988,18 +5376,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &3392785069188906174
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7009585922126909577}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7022168663952224940
 GameObject:
   m_ObjectHideFlags: 0
@@ -6013,7 +5389,6 @@ GameObject:
   - component: {fileID: 6405790201524107798}
   - component: {fileID: 1039655907741976351}
   - component: {fileID: 8943401447283310056}
-  - component: {fileID: 7228447678355084256}
   m_Layer: 0
   m_Name: Cube (28)
   m_TagString: Untagged
@@ -6113,18 +5488,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &7228447678355084256
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7022168663952224940}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7031777375672307854
 GameObject:
   m_ObjectHideFlags: 0
@@ -6138,7 +5501,6 @@ GameObject:
   - component: {fileID: 6086108320750880562}
   - component: {fileID: 5858648216790272871}
   - component: {fileID: 2172281572324416359}
-  - component: {fileID: 5036881051191072933}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6238,18 +5600,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &5036881051191072933
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7031777375672307854}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7113873370711159439
 GameObject:
   m_ObjectHideFlags: 0
@@ -6263,7 +5613,6 @@ GameObject:
   - component: {fileID: 3569837217473035219}
   - component: {fileID: 3247600974054756920}
   - component: {fileID: 8941235994189984652}
-  - component: {fileID: 266653657716880850}
   m_Layer: 0
   m_Name: Cube (46)
   m_TagString: Untagged
@@ -6363,18 +5712,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &266653657716880850
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7113873370711159439}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7409072529043956200
 GameObject:
   m_ObjectHideFlags: 0
@@ -6388,7 +5725,6 @@ GameObject:
   - component: {fileID: 4489981636901722755}
   - component: {fileID: 8621712148368414838}
   - component: {fileID: 5713505297848155472}
-  - component: {fileID: 8693919423519925213}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -6488,18 +5824,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8693919423519925213
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7409072529043956200}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7578784473994004410
 GameObject:
   m_ObjectHideFlags: 0
@@ -6513,7 +5837,6 @@ GameObject:
   - component: {fileID: 2527500737192044907}
   - component: {fileID: 5167088941392404690}
   - component: {fileID: 7416387741799300335}
-  - component: {fileID: 8785551471005906251}
   m_Layer: 0
   m_Name: Cube (42)
   m_TagString: Untagged
@@ -6613,18 +5936,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8785551471005906251
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7578784473994004410}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7613927712162680014
 GameObject:
   m_ObjectHideFlags: 0
@@ -6638,7 +5949,6 @@ GameObject:
   - component: {fileID: 6514419260216246852}
   - component: {fileID: 4776238354727516824}
   - component: {fileID: 4708698323795089238}
-  - component: {fileID: 4455327091365507441}
   m_Layer: 0
   m_Name: Cube (12)
   m_TagString: Untagged
@@ -6738,18 +6048,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &4455327091365507441
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7613927712162680014}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7634070028551055554
 GameObject:
   m_ObjectHideFlags: 0
@@ -6763,7 +6061,6 @@ GameObject:
   - component: {fileID: 2391592196867313093}
   - component: {fileID: 7133022930664177217}
   - component: {fileID: 5262622960195210560}
-  - component: {fileID: 7002537821845498637}
   m_Layer: 0
   m_Name: Cube (50)
   m_TagString: Untagged
@@ -6863,18 +6160,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &7002537821845498637
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7634070028551055554}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7728919230818914883
 GameObject:
   m_ObjectHideFlags: 0
@@ -6888,7 +6173,6 @@ GameObject:
   - component: {fileID: 4276751953847305549}
   - component: {fileID: 7433753888151256257}
   - component: {fileID: 5019787860276124097}
-  - component: {fileID: 6296592000868653996}
   m_Layer: 0
   m_Name: Cube (61)
   m_TagString: Untagged
@@ -6988,18 +6272,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &6296592000868653996
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7728919230818914883}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &7846508444347580397
 GameObject:
   m_ObjectHideFlags: 0
@@ -7013,7 +6285,6 @@ GameObject:
   - component: {fileID: 8506819065172509536}
   - component: {fileID: 1365421447502463705}
   - component: {fileID: 2145915656422600471}
-  - component: {fileID: 8238786066405262425}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -7113,18 +6384,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8238786066405262425
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7846508444347580397}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &8135732894396267097
 GameObject:
   m_ObjectHideFlags: 0
@@ -7138,7 +6397,6 @@ GameObject:
   - component: {fileID: 7121427816900365973}
   - component: {fileID: 1394941078958185800}
   - component: {fileID: 3504604336581602723}
-  - component: {fileID: 2012253696977795837}
   m_Layer: 0
   m_Name: Cube (52)
   m_TagString: Untagged
@@ -7238,18 +6496,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &2012253696977795837
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135732894396267097}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &8233053439229128123
 GameObject:
   m_ObjectHideFlags: 0
@@ -7263,7 +6509,6 @@ GameObject:
   - component: {fileID: 1514806645308942023}
   - component: {fileID: 4323498879325677}
   - component: {fileID: 9177495314738942458}
-  - component: {fileID: 5206188805030134903}
   m_Layer: 0
   m_Name: Cube (56)
   m_TagString: Untagged
@@ -7363,18 +6608,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &5206188805030134903
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8233053439229128123}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &8249845894181972005
 GameObject:
   m_ObjectHideFlags: 0
@@ -7388,7 +6621,6 @@ GameObject:
   - component: {fileID: 7283387468706230048}
   - component: {fileID: 1860616936445025825}
   - component: {fileID: 5210588911555323}
-  - component: {fileID: 8091558706789822764}
   m_Layer: 0
   m_Name: Cube (37)
   m_TagString: Untagged
@@ -7488,18 +6720,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &8091558706789822764
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8249845894181972005}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &8680958819724229083
 GameObject:
   m_ObjectHideFlags: 0
@@ -7607,7 +6827,6 @@ GameObject:
   - component: {fileID: 5745703973427829028}
   - component: {fileID: 4994811747816450427}
   - component: {fileID: 5685838086618976147}
-  - component: {fileID: 5990025006885595163}
   m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
@@ -7707,18 +6926,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &5990025006885595163
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8688117396754731694}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &8710538752662759635
 GameObject:
   m_ObjectHideFlags: 0
@@ -7732,7 +6939,6 @@ GameObject:
   - component: {fileID: 7098089370008553570}
   - component: {fileID: 7500334259364442220}
   - component: {fileID: 8125430398344654511}
-  - component: {fileID: 956652030868720003}
   m_Layer: 0
   m_Name: Cube (54)
   m_TagString: Untagged
@@ -7832,18 +7038,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &956652030868720003
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8710538752662759635}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &8912816296037347316
 GameObject:
   m_ObjectHideFlags: 0
@@ -7857,7 +7051,6 @@ GameObject:
   - component: {fileID: 990243869083002873}
   - component: {fileID: 5495529708415667675}
   - component: {fileID: 1420728347282332686}
-  - component: {fileID: 1692744547252783722}
   m_Layer: 0
   m_Name: Cube (47)
   m_TagString: Untagged
@@ -7957,18 +7150,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &1692744547252783722
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8912816296037347316}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &9066042553298918383
 GameObject:
   m_ObjectHideFlags: 0
@@ -7982,7 +7163,6 @@ GameObject:
   - component: {fileID: 7341516328133945503}
   - component: {fileID: 6906058772598703757}
   - component: {fileID: 5972685197599112436}
-  - component: {fileID: 2275842028054858694}
   m_Layer: 0
   m_Name: Cube (48)
   m_TagString: Untagged
@@ -8082,15 +7262,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!75 &2275842028054858694
-ConstantForce:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9066042553298918383}
-  m_Enabled: 1
-  m_Force: {x: 0, y: -10, z: 0}
-  m_RelativeForce: {x: 0, y: -10, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
