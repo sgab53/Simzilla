@@ -94,8 +94,12 @@ public class ShatterExample : MonoBehaviour {
             Destructible destructible = go.GetComponent<Destructible>();
             destructible.GenerateParent();
             ShatterObject(go, Random.Range(minSlices, maxSlices), sliceMaterial);
-            destructible.SlicedParent.gameObject.AddComponent<TimedDestruction>();
+            if (destructible.SlicedParent.gameObject.GetComponent<TimedDestruction>() == null)
+            {
+                destructible.SlicedParent.gameObject.AddComponent<TimedDestruction>();
+            }
             AttachToParent(destructible.SlicedParent);
+            go.layer = 3;
             yield return null;
         }
     }
