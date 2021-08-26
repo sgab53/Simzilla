@@ -16,12 +16,20 @@ public class Destructible : MonoBehaviour
 
     public void GenerateParent()
     {
+        var parent = transform.parent.Find("Sliced Parent");
+
+        if (parent == null)
+        {
+            parent = new GameObject("Sliced Parent").transform;
+            parent.parent = transform.parent;
+        }
+
         if (slicedParent == null)
         {
-            slicedParent = new GameObject(gameObject.name + " Shattered").transform;
-            slicedParent.position = transform.position;
-            slicedParent.rotation = transform.rotation;
-            slicedParent.localScale = transform.localScale;
+            slicedParent = parent;
+            slicedParent.localPosition = Vector3.zero;
+            slicedParent.localRotation = Quaternion.identity;
+            slicedParent.localScale = Vector3.one;
         }
     }
 

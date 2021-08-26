@@ -65,7 +65,15 @@ public class ShatterExample : MonoBehaviour {
             var size = mesh.bounds.size;
             rb.mass = size.x * size.y * size.z * (Random.Range(minDensity, maxDensity));
             rb.interpolation = RigidbodyInterpolation.Interpolate;
+            var pos = chunk.transform.localPosition;
+            var rot = chunk.transform.localRotation;
+            var scl = chunk.transform.localScale;
+
             chunk.transform.SetParent(parent);
+
+            chunk.transform.localPosition = pos;
+            chunk.transform.localRotation = rot;
+            chunk.transform.localScale = scl;
         }
 
         parent.gameObject.SetActive(false);
