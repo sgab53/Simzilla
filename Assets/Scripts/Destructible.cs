@@ -32,13 +32,18 @@ public class Destructible : MonoBehaviour
         foreach (var chunk in chunks)
         {
             var size = chunk.bounds.size;
+            var impulse = collision.relativeVelocity;
 
-            chunk.attachedRigidbody.AddForceAtPosition(-collision.impulse * 0.1f, collision.contacts[0].point);
+            chunk.attachedRigidbody.AddForceAtPosition(impulse * chunk.attachedRigidbody.mass, collision.contacts[0].point);
 
-            var velocity = chunk.attachedRigidbody.velocity;
+            var impulseScore = (Mathf.Abs(impulse.x) +
+                                Mathf.Abs(impulse.y) +
+                                Mathf.Abs(impulse.z)) / 3;
 
-            score += (int)(((velocity.x * velocity.y * velocity.z) +
-                        (size.x * size.y * size.z)) * 0.01f);
+            score +=    (int)(
+                        (impulseScore +
+                        (size.x * size.y * size.z)) *
+                        0.01f);
         }
 
         ScoreManager.Instance.AddScore(score);
