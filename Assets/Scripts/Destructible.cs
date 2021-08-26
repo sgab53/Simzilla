@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
+[ExecuteAlways]
 public class Destructible : MonoBehaviour
 {
     [SerializeField] private Transform slicedParent;
@@ -21,10 +23,12 @@ public class Destructible : MonoBehaviour
         }
     }
 
-    public void Smash()
+    public IEnumerator Smash()
     {
         gameObject.SetActive(false);
         slicedParent.gameObject.SetActive(true);
+
+        yield return null;
 
         int score = 0;
         foreach (var chunk in chunks)
@@ -36,6 +40,8 @@ public class Destructible : MonoBehaviour
             score += (int)(((velocity.x * velocity.y * velocity.z) +
                         (angularVelocity.x * angularVelocity.y * angularVelocity.z) +
                         (size.x * size.y * size.z)) * 0.01f);
+
+            yield return null;
         }
 
         ScoreManager.Instance.AddScore(score);
@@ -64,7 +70,7 @@ public class Destructible : MonoBehaviour
     {
         if (collision.gameObject.layer == kaijuLayer)
         {
-            Smash();
+            StartCoroutine(Smash());
         }
     }
 }
