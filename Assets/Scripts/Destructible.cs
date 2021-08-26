@@ -23,25 +23,22 @@ public class Destructible : MonoBehaviour
         }
     }
 
-    public IEnumerator Smash()
+    public void Smash(Collision collision)
     {
-        gameObject.SetActive(false);
         slicedParent.gameObject.SetActive(true);
-
-        yield return null;
+        gameObject.SetActive(false);
 
         int score = 0;
         foreach (var chunk in chunks)
         {
-            var velocity = chunk.attachedRigidbody.velocity;
-            var angularVelocity = chunk.attachedRigidbody.angularVelocity;
             var size = chunk.bounds.size;
 
-            score += (int)(((velocity.x * velocity.y * velocity.z) +
-                        (angularVelocity.x * angularVelocity.y * angularVelocity.z) +
-                        (size.x * size.y * size.z)) * 0.01f);
+            chunk.attachedRigidbody.AddForceAtPosition(-collision.impulse * 0.1f, collision.contacts[0].point);
 
-            yield return null;
+            var velocity = chunk.attachedRigidbody.velocity;
+
+            score += (int)(((velocity.x * velocity.y * velocity.z) +
+                        (size.x * size.y * size.z)) * 0.01f);
         }
 
         ScoreManager.Instance.AddScore(score);
@@ -70,7 +67,7 @@ public class Destructible : MonoBehaviour
     {
         if (collision.gameObject.layer == kaijuLayer)
         {
-            StartCoroutine(Smash());
+            Smash(collision);
         }
     }
 }
