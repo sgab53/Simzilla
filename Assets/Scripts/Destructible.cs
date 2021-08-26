@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Destructible : MonoBehaviour
 {
@@ -8,10 +9,36 @@ public class Destructible : MonoBehaviour
 
     public Transform SlicedParent => slicedParent;
 
+    [SerializeField] [HideInInspector] private List<Collider> chunks;
+
+    private void Awake()
+    {
+        chunks = new List<Collider>();
+
+        for (int i = 0; i < slicedParent.childCount; i++)
+        {
+            chunks.Add(slicedParent.GetChild(i).GetComponent<Collider>());
+        }
+    }
+
     public void Smash()
     {
         gameObject.SetActive(false);
         slicedParent.gameObject.SetActive(true);
+
+        int score = 0;
+        foreach (var chunk in chunks)
+        {
+            var velocity = chunk.attachedRigidbody.velocity;
+            var angularVelocity = chunk.attachedRigidbody.angularVelocity;
+            var size = chunk.bounds.size;
+
+            score += (int)(((velocity.x * velocity.y * velocity.z) +
+                        (angularVelocity.x * angularVelocity.y * angularVelocity.z) +
+                        (size.x * size.y * size.z)) * 0.01f);
+        }
+
+        ScoreManager.Instance.AddScore(score);
     }
 
     public void GenerateParent()
