@@ -8,6 +8,12 @@ public class Destructible : MonoBehaviour
 
     public Transform SlicedParent => slicedParent;
 
+    public void Smash()
+    {
+        gameObject.SetActive(false);
+        slicedParent.gameObject.SetActive(true);
+    }
+
     public void GenerateParent()
     {
         if (slicedParent == null)
@@ -17,12 +23,6 @@ public class Destructible : MonoBehaviour
             slicedParent.rotation = transform.rotation;
             slicedParent.localScale = transform.localScale;
         }
-    }
-
-    public void Smash()
-    {
-        gameObject.SetActive(false);
-        slicedParent.gameObject.SetActive(true);
     }
 
     private void OnCollisionEnter(Collision collision)

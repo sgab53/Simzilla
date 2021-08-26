@@ -78,29 +78,24 @@ public class ShatterExample : MonoBehaviour {
      * which can be used to randomly slice an object
      */
     public EzySlice.Plane GetRandomPlane(Vector3 positionOffset) {
-        Vector3 randomPosition = Random.insideUnitSphere;
-
-        randomPosition += positionOffset;
-
         Vector3 randomDirection = Random.onUnitSphere;
 
-        return new EzySlice.Plane(randomPosition, randomDirection);
+        return new EzySlice.Plane(Vector2.zero, randomDirection);
     }
 
-    public IEnumerator SliceAll(GameObject[] objects)
+    public void SliceAll(GameObject[] objects)
     {
         foreach (var go in objects)
         {
             Destructible destructible = go.GetComponent<Destructible>();
             destructible.GenerateParent();
-            ShatterObject(go, Random.Range(minSlices, maxSlices), sliceMaterial);
+            bool done = ShatterObject(go, Random.Range(minSlices, maxSlices), sliceMaterial);
             if (destructible.SlicedParent.gameObject.GetComponent<TimedDestruction>() == null)
             {
                 destructible.SlicedParent.gameObject.AddComponent<TimedDestruction>();
             }
             AttachToParent(destructible.SlicedParent);
             go.layer = 3;
-            yield return null;
         }
     }
 }
