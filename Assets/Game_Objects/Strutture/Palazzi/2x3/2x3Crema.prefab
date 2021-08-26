@@ -1,5 +1,77 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181028186814761023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2828132943046009678}
+  - component: {fileID: 108062908499871499}
+  - component: {fileID: 3287350058499608774}
+  - component: {fileID: 8605940800224059382}
+  m_Layer: 0
+  m_Name: SlicedParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2828132943046009678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181028186814761023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 787065916006651912}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &108062908499871499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181028186814761023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d628937e19c86624495e1bd2ee916901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOut: 8
+--- !u!114 &3287350058499608774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181028186814761023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d628937e19c86624495e1bd2ee916901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOut: 8
+--- !u!114 &8605940800224059382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181028186814761023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d628937e19c86624495e1bd2ee916901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOut: 8
 --- !u!1 &1126240766979475665
 GameObject:
   m_ObjectHideFlags: 0
@@ -30,6 +102,7 @@ Transform:
   - {fileID: 1382318394193701463}
   - {fileID: 4938983308730387897}
   - {fileID: 6079477874615061893}
+  - {fileID: 2828132943046009678}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -40,9 +113,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 787065916006651912}
     m_Modifications:
+    - target: {fileID: -2135413512267650490, guid: fa387129759b34e6f828121dfb601fb5, type: 3}
+      propertyPath: slicedParent
+      value: 
+      objectReference: {fileID: 2828132943046009678}
     - target: {fileID: 1140733588059092, guid: fa387129759b34e6f828121dfb601fb5, type: 3}
       propertyPath: m_Name
       value: office_building_type2_roof_cream_deco (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1140733588059092, guid: fa387129759b34e6f828121dfb601fb5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4647654180772610, guid: fa387129759b34e6f828121dfb601fb5, type: 3}
       propertyPath: m_RootOrder
@@ -106,6 +187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: office_building_type2_double_floor_cream (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1335721117604754, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4815912211831744, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -150,6 +235,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5810635090262132741, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
+      propertyPath: slicedParent
+      value: 
+      objectReference: {fileID: 2828132943046009678}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
 --- !u!4 &4938983308730387897 stripped
@@ -167,6 +256,10 @@ PrefabInstance:
     - target: {fileID: 1733561106039564, guid: 3a23840ab179443a789e470498360fae, type: 3}
       propertyPath: m_Name
       value: office_building_type2_ground_floor_brown (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733561106039564, guid: 3a23840ab179443a789e470498360fae, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4670846549275830, guid: 3a23840ab179443a789e470498360fae, type: 3}
       propertyPath: m_RootOrder
@@ -212,6 +305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6908743512592758976, guid: 3a23840ab179443a789e470498360fae, type: 3}
+      propertyPath: slicedParent
+      value: 
+      objectReference: {fileID: 2828132943046009678}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a23840ab179443a789e470498360fae, type: 3}
 --- !u!4 &6079477874615061893 stripped
