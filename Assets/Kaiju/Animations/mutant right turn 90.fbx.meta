@@ -41,7 +41,7 @@ ModelImporter:
       name: right_turn_90
       takeName: mixamo.com
       internalID: 0
-      firstFrame: 0
+      firstFrame: 10
       lastFrame: 144
       wrapMode: 0
       orientationOffsetY: 0
@@ -49,10 +49,10 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
