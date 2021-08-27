@@ -26,7 +26,6 @@ public class SlicerUtility : EditorWindow
 
     private void OnGUI()
     {
-
         scrollPosition = GUI.BeginScrollView(new Rect(0, 0, position.width, position.height * 0.5f), scrollPosition, new Rect(0, 0, position.width / 2, position.height));
 
         foreach (var go in Selection.gameObjects)
@@ -44,7 +43,7 @@ public class SlicerUtility : EditorWindow
 
             shatter = shatterObject.GetComponent<ShatterExample>();
 
-            shatter.StartCoroutine(shatter.SliceAll(Selection.gameObjects));
+            shatter.SliceAll(Selection.gameObjects);
         }
     }
 }

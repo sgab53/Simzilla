@@ -1,5 +1,8 @@
 using UnityEngine;
+using System.Collections.Generic;
+using System.Collections;
 
+[ExecuteAlways]
 public class Destructible : MonoBehaviour
 {
     [SerializeField] private Transform slicedParent;
@@ -8,28 +11,68 @@ public class Destructible : MonoBehaviour
 
     public Transform SlicedParent => slicedParent;
 
-    public void GenerateParent()
+    [SerializeField] [HideInInspector] private List<Collider> chunks;
+
+    private void Awake()
     {
-        if (slicedParent == null)
+        chunks = new List<Collider>();
+
+        for (int i = 0; i < slicedParent.childCount; i++)
         {
-            slicedParent = new GameObject(gameObject.name + " Shattered").transform;
-            slicedParent.position = transform.position;
-            slicedParent.rotation = transform.rotation;
-            slicedParent.localScale = transform.localScale;
+            chunks.Add(slicedParent.GetChild(i).GetComponent<Collider>());
         }
     }
 
-    public void Smash()
+    public void Smash(Collision collision)
     {
-        gameObject.SetActive(false);
         slicedParent.gameObject.SetActive(true);
+        gameObject.SetActive(false);
+
+        int score = 0;
+        foreach (var chunk in chunks)
+        {
+            var size = chunk.bounds.size;
+            var impulse = collision.relativeVelocity;
+
+            chunk.attachedRigidbody.AddForceAtPosition(impulse * chunk.attachedRigidbody.mass, collision.contacts[0].point);
+
+            var impulseScore = (Mathf.Abs(impulse.x) +
+                                Mathf.Abs(impulse.y) +
+                                Mathf.Abs(impulse.z)) / 3;
+
+            score +=    (int)(
+                        (impulseScore +
+                        (size.x * size.y * size.z)) *
+                        0.01f);
+        }
+
+        ScoreManager.Instance.AddScore(score);
+    }
+
+    public void GenerateParent()
+    {
+        var parent = transform.parent.Find("Sliced Parent");
+
+        if (parent == null)
+        {
+            parent = new GameObject("Sliced Parent").transform;
+            parent.parent = transform.parent;
+        }
+
+        if (slicedParent == null)
+        {
+            slicedParent = parent;
+            slicedParent.localPosition = Vector3.zero;
+            slicedParent.localRotation = Quaternion.identity;
+            slicedParent.localScale = Vector3.one;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.layer == kaijuLayer)
         {
-            Smash();
+            Smash(collision);
         }
     }
 }
