@@ -36,39 +36,8 @@ Transform:
   - {fileID: 8575282493216180987}
   - {fileID: 3214676930298620891}
   - {fileID: 3645340947536812236}
-  - {fileID: 7078208230481696860}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2305750559340246069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7078208230481696860}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7078208230481696860
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2305750559340246069}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6390945560672225580}
-  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1059162985474293061
 PrefabInstance:
@@ -80,7 +49,7 @@ PrefabInstance:
     - target: {fileID: -3884835695649900325, guid: 54d5f79b6869848b8b9c6166459f88ad, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     - target: {fileID: 1482135038558320, guid: 54d5f79b6869848b8b9c6166459f88ad, type: 3}
       propertyPath: m_Name
       value: office_building_type2_double_floor_red (1)
@@ -146,7 +115,7 @@ PrefabInstance:
     - target: {fileID: -3097595695464695342, guid: c309a7e52722743909796cd1c819b156, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     - target: {fileID: 1191047145791800, guid: c309a7e52722743909796cd1c819b156, type: 3}
       propertyPath: m_Name
       value: office_building_type1_single_floor1_red
@@ -212,7 +181,7 @@ PrefabInstance:
     - target: {fileID: -8082155157218629144, guid: 65b65be04dca743658ecf353f6f3ca0a, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     - target: {fileID: 1349819625626572, guid: 65b65be04dca743658ecf353f6f3ca0a, type: 3}
       propertyPath: m_Name
       value: office_building_type1_ground_floor_red
@@ -278,7 +247,7 @@ PrefabInstance:
     - target: {fileID: -3884835695649900325, guid: 54d5f79b6869848b8b9c6166459f88ad, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     - target: {fileID: 1482135038558320, guid: 54d5f79b6869848b8b9c6166459f88ad, type: 3}
       propertyPath: m_Name
       value: office_building_type2_double_floor_red (3)
@@ -344,7 +313,7 @@ PrefabInstance:
     - target: {fileID: -3273728371482780695, guid: 1c58a333442f647fc947a736f0e9b81b, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     - target: {fileID: 1420918293329234, guid: 1c58a333442f647fc947a736f0e9b81b, type: 3}
       propertyPath: m_Name
       value: office_building_type1_roof_red_deco
@@ -458,7 +427,7 @@ PrefabInstance:
     - target: {fileID: 4325844505065966596, guid: 7eca0e1a1c10349caa8307862302d24a, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7eca0e1a1c10349caa8307862302d24a, type: 3}
 --- !u!4 &4282632807767680174 stripped
@@ -476,7 +445,7 @@ PrefabInstance:
     - target: {fileID: -3884835695649900325, guid: 54d5f79b6869848b8b9c6166459f88ad, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     - target: {fileID: 1482135038558320, guid: 54d5f79b6869848b8b9c6166459f88ad, type: 3}
       propertyPath: m_Name
       value: office_building_type2_double_floor_red
@@ -590,7 +559,7 @@ PrefabInstance:
     - target: {fileID: 4325844505065966596, guid: 7eca0e1a1c10349caa8307862302d24a, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7eca0e1a1c10349caa8307862302d24a, type: 3}
 --- !u!4 &5213932301878277101 stripped
@@ -608,7 +577,7 @@ PrefabInstance:
     - target: {fileID: -3884835695649900325, guid: 54d5f79b6869848b8b9c6166459f88ad, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7078208230481696860}
+      objectReference: {fileID: 0}
     - target: {fileID: 1482135038558320, guid: 54d5f79b6869848b8b9c6166459f88ad, type: 3}
       propertyPath: m_Name
       value: office_building_type2_double_floor_red (2)
