@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2857484991882985726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2481982645609708781}
+  m_Layer: 0
+  m_Name: SlicedParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2481982645609708781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2857484991882985726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 599464959139732148}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8207212486702842605
 GameObject:
   m_ObjectHideFlags: 0
@@ -30,6 +60,7 @@ Transform:
   - {fileID: 450624846422652265}
   - {fileID: 5668080592166010042}
   - {fileID: 6181360443284967773}
+  - {fileID: 2481982645609708781}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43,7 +74,7 @@ PrefabInstance:
     - target: {fileID: -9126175009627713189, guid: 1eb768aadd21948419a6e3e7d392daab, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2481982645609708781}
     - target: {fileID: 1166375356082274, guid: 1eb768aadd21948419a6e3e7d392daab, type: 3}
       propertyPath: m_Name
       value: office_building_type2_roof_grey_deco (1)
@@ -157,7 +188,7 @@ PrefabInstance:
     - target: {fileID: 8073735696498544261, guid: e39d5fc5fe0b341a19112beab8f1f25a, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2481982645609708781}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39d5fc5fe0b341a19112beab8f1f25a, type: 3}
 --- !u!4 &5668080592166010042 stripped
@@ -223,7 +254,7 @@ PrefabInstance:
     - target: {fileID: 8007438495140256533, guid: f4c3ceba9516542f9a76154169c07d83, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2481982645609708781}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4c3ceba9516542f9a76154169c07d83, type: 3}
 --- !u!4 &6181360443284967773 stripped
