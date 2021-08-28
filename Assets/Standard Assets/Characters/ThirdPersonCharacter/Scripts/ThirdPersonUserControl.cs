@@ -60,10 +60,5 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // pass all parameters to the character control script
             m_Character.Move(m_Move, ref m_Swipe, mirror);
         }
-
-        private void OnGUI()
-        {
-            GUILayout.Label("Swipe: " + m_Swipe.ToString());
-        }
     }
 }
