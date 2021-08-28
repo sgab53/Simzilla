@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3112245190482438670
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7774775661254143172}
-  m_Layer: 0
-  m_Name: SliceParent
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7774775661254143172
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3112245190482438670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3108921472806089729}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7992212135916745155
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,7 +31,6 @@ Transform:
   - {fileID: 8074110000144278550}
   - {fileID: 7339736996949237091}
   - {fileID: 3412541284808745921}
-  - {fileID: 7774775661254143172}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -123,8 +92,9 @@ PrefabInstance:
     - target: {fileID: 3234232463922730521, guid: 8414e1ff1928844e8a5354ad84312461, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7774775661254143172}
-    m_RemovedComponents: []
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 95529040961447710, guid: 8414e1ff1928844e8a5354ad84312461, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8414e1ff1928844e8a5354ad84312461, type: 3}
 --- !u!4 &3412541284808745921 stripped
 Transform:
@@ -141,7 +111,7 @@ PrefabInstance:
     - target: {fileID: -5688782104975657267, guid: 30c73285e710c4d6982baef995255925, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7774775661254143172}
+      objectReference: {fileID: 0}
     - target: {fileID: 1398050110068398, guid: 30c73285e710c4d6982baef995255925, type: 3}
       propertyPath: m_Name
       value: office_building_type1_ground_floor_brown (1)
@@ -190,7 +160,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95135283801992562, guid: 30c73285e710c4d6982baef995255925, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 30c73285e710c4d6982baef995255925, type: 3}
 --- !u!4 &6010901782301216626 stripped
 Transform:
@@ -207,7 +178,7 @@ PrefabInstance:
     - target: {fileID: -4172978364716862619, guid: 73030e8efd9d04122909fc89632893b3, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7774775661254143172}
+      objectReference: {fileID: 0}
     - target: {fileID: 1291320156007144, guid: 73030e8efd9d04122909fc89632893b3, type: 3}
       propertyPath: m_Name
       value: office_building_type1_single_floor2_brown (1)
@@ -256,7 +227,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95656213672971142, guid: 73030e8efd9d04122909fc89632893b3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 73030e8efd9d04122909fc89632893b3, type: 3}
 --- !u!4 &7339736996949237091 stripped
 Transform:
@@ -273,7 +245,7 @@ PrefabInstance:
     - target: {fileID: -2646822564956728449, guid: 2fbc6692818484bc9b7eb59a14fdbd3c, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 7774775661254143172}
+      objectReference: {fileID: 0}
     - target: {fileID: 1073865682214034, guid: 2fbc6692818484bc9b7eb59a14fdbd3c, type: 3}
       propertyPath: m_Name
       value: office_building_type1_single_floor1_brown (1)
@@ -322,7 +294,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95417638540351570, guid: 2fbc6692818484bc9b7eb59a14fdbd3c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2fbc6692818484bc9b7eb59a14fdbd3c, type: 3}
 --- !u!4 &8074110000144278550 stripped
 Transform:
