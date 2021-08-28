@@ -28,7 +28,7 @@ public class Destructible : MonoBehaviour
         slicedParent.gameObject.SetActive(true);
         gameObject.SetActive(false);
 
-        int score = 0;
+        float score = 0.0f;
         foreach (var chunk in chunks)
         {
             var size = chunk.bounds.size;
@@ -40,7 +40,7 @@ public class Destructible : MonoBehaviour
                                 Mathf.Abs(impulse.y) +
                                 Mathf.Abs(impulse.z)) / 3;
 
-            score +=    (int)(
+            score +=    (
                         (impulseScore +
                         (size.x * size.y * size.z)) *
                         0.01f);
