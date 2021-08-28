@@ -29,7 +29,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
-
 		void Start()
 		{
 			m_Animator = GetComponent<Animator>();
@@ -43,23 +42,26 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		}
 
 
-		public void Move(Vector3 move)
+		public void Move(Vector3 move, ref bool swipe, bool mirror)
 		{
 
 			// convert the world relative moveInput vector into a local-relative
 			// turn amount and forward amount required to head in the desired
 			// direction.
-			if (move.magnitude > 1f) move.Normalize();
-			move = transform.InverseTransformDirection(move);
-			CheckGroundStatus();
-			move = Vector3.ProjectOnPlane(move, m_GroundNormal);
-			m_TurnAmount = Mathf.Atan2(move.x, move.z);
-			m_ForwardAmount = move.z;
+			if (!swipe)
+            {
+				if (move.magnitude > 1f) move.Normalize();
+				move = transform.InverseTransformDirection(move);
+				CheckGroundStatus();
+				move = Vector3.ProjectOnPlane(move, m_GroundNormal);
+				m_TurnAmount = Mathf.Atan2(move.x, move.z);
+				m_ForwardAmount = move.z;
 
-			ApplyExtraTurnRotation();
+				ApplyExtraTurnRotation();
+            }
 
 			// send input and other state parameters to the animator
-			UpdateAnimator(move);
+			UpdateAnimator(move, ref swipe, mirror);
 		}
 
 
@@ -87,12 +89,29 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			}
 		}
 
+		public bool SwipeIsPlaying()
+        {
+			return m_Animator.GetBool("Swipe") || m_Animator.GetBool("SwipeMirror");
+        }
 
-		void UpdateAnimator(Vector3 move)
+		void UpdateAnimator(Vector3 move, ref bool swipe, bool mirror)
 		{
 			// update the animator parameters
 			m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
 			m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
+
+            if (swipe)
+            {
+				swipe = false;
+				if (mirror)
+                {
+					m_Animator.SetBool("SwipeMirror", true);
+				}
+				else
+                {
+					m_Animator.SetBool("Swipe", true);
+                }
+            }
 
 			// calculate which leg is behind, so as to leave that leg trailing in the jump animation
 			// (This code is reliant on the specific run cycle offset in our animations,
