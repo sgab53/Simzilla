@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4097472419567311238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596227799666831219}
+  m_Layer: 0
+  m_Name: SlicedParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1596227799666831219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4097472419567311238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6430876850010531451}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5915002545950385945
 GameObject:
   m_ObjectHideFlags: 0
@@ -33,6 +63,7 @@ Transform:
   - {fileID: 7769989713687611714}
   - {fileID: 8553795474786470040}
   - {fileID: 7507298582173244409}
+  - {fileID: 1596227799666831219}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46,7 +77,7 @@ PrefabInstance:
     - target: {fileID: -452687706101902472, guid: df4cf627a8fcf467289156f4cdeeff17, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1596227799666831219}
     - target: {fileID: 4339593094556870, guid: df4cf627a8fcf467289156f4cdeeff17, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -96,7 +127,7 @@ PrefabInstance:
     - target: {fileID: -452687706101902472, guid: df4cf627a8fcf467289156f4cdeeff17, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1596227799666831219}
     - target: {fileID: 4339593094556870, guid: df4cf627a8fcf467289156f4cdeeff17, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -150,7 +181,7 @@ PrefabInstance:
     - target: {fileID: -577724238545956811, guid: b8977dc18daf04a4bbd0ceb4bb093924, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1596227799666831219}
     - target: {fileID: 4864638147180632, guid: b8977dc18daf04a4bbd0ceb4bb093924, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -204,7 +235,7 @@ PrefabInstance:
     - target: {fileID: -6152237083489390487, guid: e02242fa9a9944673892f67f87bf9141, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1596227799666831219}
     - target: {fileID: 4698909802961890, guid: e02242fa9a9944673892f67f87bf9141, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -294,7 +325,7 @@ PrefabInstance:
     - target: {fileID: 6908743512592758976, guid: 3a23840ab179443a789e470498360fae, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1596227799666831219}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a23840ab179443a789e470498360fae, type: 3}
 --- !u!4 &8188940477962006875 stripped
@@ -312,7 +343,7 @@ PrefabInstance:
     - target: {fileID: -6152237083489390487, guid: e02242fa9a9944673892f67f87bf9141, type: 3}
       propertyPath: slicedParent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1596227799666831219}
     - target: {fileID: 4698909802961890, guid: e02242fa9a9944673892f67f87bf9141, type: 3}
       propertyPath: m_RootOrder
       value: 4
