@@ -79,10 +79,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4300000, guid: 6db7eef7411af48c5a8d96abfa72c250, type: 3}
     - target: {fileID: 9060945157898260470, guid: f9eae93324dbd4ba78040447d5b2fb3c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060945157898260470, guid: f9eae93324dbd4ba78040447d5b2fb3c, type: 3}
       propertyPath: slicedParent
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95854528973933726, guid: f9eae93324dbd4ba78040447d5b2fb3c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f9eae93324dbd4ba78040447d5b2fb3c, type: 3}
 --- !u!4 &517174088640503702 stripped
 Transform:
@@ -96,6 +101,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8760867989955562209}
     m_Modifications:
+    - target: {fileID: -5688782104975657267, guid: 30c73285e710c4d6982baef995255925, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5688782104975657267, guid: 30c73285e710c4d6982baef995255925, type: 3}
       propertyPath: slicedParent
       value: 
@@ -136,7 +145,8 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: ed4e225a59a05422f8b092812adb909e, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95135283801992562, guid: 30c73285e710c4d6982baef995255925, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 30c73285e710c4d6982baef995255925, type: 3}
 --- !u!4 &4257667937413170760 stripped
 Transform:
@@ -187,10 +197,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4300000, guid: 36da58bf720dc42ff9062a6c19cb64fd, type: 3}
     - target: {fileID: 3234232463922730521, guid: 8414e1ff1928844e8a5354ad84312461, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3234232463922730521, guid: 8414e1ff1928844e8a5354ad84312461, type: 3}
       propertyPath: slicedParent
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95529040961447710, guid: 8414e1ff1928844e8a5354ad84312461, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8414e1ff1928844e8a5354ad84312461, type: 3}
 --- !u!4 &7585759910104595317 stripped
 Transform:
@@ -204,6 +219,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8760867989955562209}
     m_Modifications:
+    - target: {fileID: -4172978364716862619, guid: 73030e8efd9d04122909fc89632893b3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4172978364716862619, guid: 73030e8efd9d04122909fc89632893b3, type: 3}
       propertyPath: slicedParent
       value: 
@@ -228,7 +247,8 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: 82ebe8e3a627042bfbd203458990e2f4, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95656213672971142, guid: 73030e8efd9d04122909fc89632893b3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 73030e8efd9d04122909fc89632893b3, type: 3}
 --- !u!4 &7920098209050157164 stripped
 Transform:
@@ -279,10 +299,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4300000, guid: 6db7eef7411af48c5a8d96abfa72c250, type: 3}
     - target: {fileID: 9060945157898260470, guid: f9eae93324dbd4ba78040447d5b2fb3c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060945157898260470, guid: f9eae93324dbd4ba78040447d5b2fb3c, type: 3}
       propertyPath: slicedParent
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95854528973933726, guid: f9eae93324dbd4ba78040447d5b2fb3c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f9eae93324dbd4ba78040447d5b2fb3c, type: 3}
 --- !u!4 &7932103895992057007 stripped
 Transform:

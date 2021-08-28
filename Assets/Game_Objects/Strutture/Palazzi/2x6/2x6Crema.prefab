@@ -90,7 +90,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5810635090262132741, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 95930770345158130, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
 --- !u!4 &476273755392567864 stripped
 Transform:
@@ -104,6 +109,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7479392664751078217}
     m_Modifications:
+    - target: {fileID: -2135413512267650490, guid: fa387129759b34e6f828121dfb601fb5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1140733588059092, guid: fa387129759b34e6f828121dfb601fb5, type: 3}
       propertyPath: m_Name
       value: office_building_type2_roof_cream_deco (1)
@@ -152,7 +161,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95446320246738354, guid: fa387129759b34e6f828121dfb601fb5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fa387129759b34e6f828121dfb601fb5, type: 3}
 --- !u!4 &484322779680019386 stripped
 Transform:
@@ -214,7 +224,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6908743512592758976, guid: 3a23840ab179443a789e470498360fae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 95457094793649812, guid: 3a23840ab179443a789e470498360fae, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3a23840ab179443a789e470498360fae, type: 3}
 --- !u!4 &7291376027174097370 stripped
 Transform:
@@ -228,6 +243,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7479392664751078217}
     m_Modifications:
+    - target: {fileID: -8587453348228936705, guid: 87d3935e408054403854394217067661, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1242422535483826, guid: 87d3935e408054403854394217067661, type: 3}
       propertyPath: m_Name
       value: office_building_type2_single_floor1_cream (1)
@@ -276,7 +295,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 95178119566618810, guid: 87d3935e408054403854394217067661, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 87d3935e408054403854394217067661, type: 3}
 --- !u!4 &7320360426727777363 stripped
 Transform:
@@ -338,7 +358,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5810635090262132741, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 95930770345158130, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 991251f5f20254bc795c8bfc76af50ac, type: 3}
 --- !u!4 &7514268206422419568 stripped
 Transform:
