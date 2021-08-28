@@ -56,7 +56,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: f3326de4372f7d5438d8b0f6f0a851aa, type: 3}
+    m_Motion: {fileID: 7400000, guid: 4b50137841bbc3a4dbc7d84ebb764f46, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -64,7 +64,7 @@ BlendTree:
     m_DirectBlendParameter: Forward
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 4e5aa63523bc85d49b45d86991aa68e4, type: 3}
+    m_Motion: {fileID: 7400000, guid: 61154a341a78fce4e9ccd5cb6d45f346, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -72,7 +72,7 @@ BlendTree:
     m_DirectBlendParameter: Forward
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 515d49f041c806d4bbda04883975a840, type: 3}
+    m_Motion: {fileID: 7400000, guid: 9e90536b6d145454b99728e349bc9fed, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: -1, y: -0.5}
     m_TimeScale: 1
@@ -80,7 +80,7 @@ BlendTree:
     m_DirectBlendParameter: Forward
     m_Mirror: 1
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 515d49f041c806d4bbda04883975a840, type: 3}
+    m_Motion: {fileID: 7400000, guid: 9e90536b6d145454b99728e349bc9fed, type: 2}
     m_Threshold: 1
     m_Position: {x: 1, y: -0.5}
     m_TimeScale: 1
@@ -116,7 +116,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 9568937b184bb0440b4546f5c26556b4, type: 3}
+  m_Motion: {fileID: 7400000, guid: f060c21c9c9e54c478300587233b4002, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -250,25 +250,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Turn
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Swipe
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: SwipeMirror
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -384,7 +384,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 9568937b184bb0440b4546f5c26556b4, type: 3}
+  m_Motion: {fileID: 7400000, guid: f060c21c9c9e54c478300587233b4002, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
