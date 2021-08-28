@@ -40,10 +40,7 @@ public class Destructible : MonoBehaviour
                                 Mathf.Abs(impulse.y) +
                                 Mathf.Abs(impulse.z)) / 3;
 
-            score +=    (
-                        (impulseScore +
-                        (size.x * size.y * size.z)) *
-                        0.01f);
+            score += (impulseScore + (size.x * size.y * size.z));
         }
 
         ScoreManager.Instance.AddScore(score);
