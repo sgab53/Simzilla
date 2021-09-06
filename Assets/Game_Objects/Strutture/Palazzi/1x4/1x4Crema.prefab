@@ -26,6 +26,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedParent: {fileID: 0}
+  crush: {fileID: 0}
+  shatters:
+  - {fileID: 0}
+  - {fileID: 0}
   chunks: []
 --- !u!65 &6311553614616338602
 BoxCollider:
@@ -53,6 +57,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedParent: {fileID: 0}
+  crush: {fileID: 0}
+  shatters:
+  - {fileID: 0}
+  - {fileID: 0}
   chunks: []
 --- !u!65 &3178528302681618502
 BoxCollider:
@@ -80,6 +88,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedParent: {fileID: 0}
+  crush: {fileID: 0}
+  shatters:
+  - {fileID: 0}
+  - {fileID: 0}
   chunks: []
 --- !u!65 &7617265147217260019
 BoxCollider:
@@ -107,6 +119,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedParent: {fileID: 0}
+  crush: {fileID: 0}
+  shatters:
+  - {fileID: 0}
+  - {fileID: 0}
   chunks: []
 --- !u!1 &7706158291939003387
 GameObject:

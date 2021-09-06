@@ -44223,14 +44223,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.3
+  - time: 0.33333334
     functionName: PlayFootstep
     data: 
     objectReferenceParameter: {fileID: 3120272160029856630, guid: 1dc7ab10bb0d4fe4aacef4088976530f, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.98333335
+  - time: 1
     functionName: PlayFootstep
     data: 
     objectReferenceParameter: {fileID: 3120272160029856630, guid: 1dc7ab10bb0d4fe4aacef4088976530f, type: 3}
