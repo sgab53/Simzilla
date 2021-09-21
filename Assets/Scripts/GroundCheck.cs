@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
@@ -10,15 +8,9 @@ public class GroundCheck : MonoBehaviour
 
     Vector3 normal;
 
-    private bool MaskContainsLayer(LayerMask mask, int layer)
-    {
-        return mask == (mask | (1 << layer));
-    }
-
     private void OnCollisionEnter(Collision collision)
     {
-        if (MaskContainsLayer(groundCheckLayer.value,
-            collision.gameObject.layer))
+        if (groundCheckLayer.Contains(collision.gameObject.layer))
         {
             normal = Vector3.zero;
 
@@ -39,8 +31,7 @@ public class GroundCheck : MonoBehaviour
 
     private void OnCollisionStay(Collision collision)
     {
-        if (MaskContainsLayer(groundCheckLayer.value,
-            collision.gameObject.layer))
+        if (groundCheckLayer.Contains(collision.gameObject.layer))
         {
 
         }
@@ -48,8 +39,7 @@ public class GroundCheck : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        if (MaskContainsLayer(groundCheckLayer.value,
-            collision.gameObject.layer))
+        if (groundCheckLayer.Contains(collision.gameObject.layer))
         {
             normal = Vector3.up;
 
