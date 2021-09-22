@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
     private int scoreUpAnimation = Animator.StringToHash("ScoreUpAnimation");
 
     private float score = 0;
+    private float scoreMult = 1.0f;
 
     private void Awake()
     {
@@ -21,9 +22,12 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(float s)
     {
         score += s;
-        scoreText.text = string.Format("{0:000000}", (int)score);
+        scoreText.text = string.Format("{0:0000000}", (int)score);
         scoreAnimator.Play(scoreUpAnimation);
     }
 
-
+    public void SetScoreMultiplier(float m)
+    {
+        scoreMult = m;
+    }
 }

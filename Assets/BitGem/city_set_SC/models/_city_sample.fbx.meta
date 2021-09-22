@@ -1,63 +1,161 @@
 fileFormatVersion: 2
 guid: 65d038cfc0dd248529948c1d9585f410
-timeCreated: 1527260968
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Camera
-    100004: city_sample_canals
-    100006: city_sample_earth
-    100008: city_sample_floor
-    100010: city_sample_houses_1
-    100012: city_sample_houses_2
-    100014: city_sample_houses_3
-    100016: city_sample_streets
-    100018: Lamp
-    400000: //RootNode
-    400002: Camera
-    400004: city_sample_canals
-    400006: city_sample_earth
-    400008: city_sample_floor
-    400010: city_sample_houses_1
-    400012: city_sample_houses_2
-    400014: city_sample_houses_3
-    400016: city_sample_streets
-    400018: Lamp
-    2000000: Camera
-    2100000: city_mat.005
-    2100002: city_mat.004
-    2100004: city_mat.003
-    2100006: city_mat.002
-    2100008: sidewalk_mat
-    2100010: city_mat.001
-    2100012: city_mat
-    2300000: city_sample_canals
-    2300002: city_sample_earth
-    2300004: city_sample_floor
-    2300006: city_sample_houses_1
-    2300008: city_sample_houses_2
-    2300010: city_sample_houses_3
-    2300012: city_sample_streets
-    3300000: city_sample_canals
-    3300002: city_sample_earth
-    3300004: city_sample_floor
-    3300006: city_sample_houses_1
-    3300008: city_sample_houses_2
-    3300010: city_sample_houses_3
-    3300012: city_sample_streets
-    4300000: city_sample_streets
-    4300002: city_sample_houses_3
-    4300004: city_sample_houses_2
-    4300006: city_sample_houses_1
-    4300008: city_sample_floor
-    4300010: city_sample_canals
-    4300012: city_sample_earth
-    10800000: Lamp
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Camera
+  - first:
+      1: 100004
+    second: city_sample_canals
+  - first:
+      1: 100006
+    second: city_sample_earth
+  - first:
+      1: 100008
+    second: city_sample_floor
+  - first:
+      1: 100010
+    second: city_sample_houses_1
+  - first:
+      1: 100012
+    second: city_sample_houses_2
+  - first:
+      1: 100014
+    second: city_sample_houses_3
+  - first:
+      1: 100016
+    second: city_sample_streets
+  - first:
+      1: 100018
+    second: Lamp
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Camera
+  - first:
+      4: 400004
+    second: city_sample_canals
+  - first:
+      4: 400006
+    second: city_sample_earth
+  - first:
+      4: 400008
+    second: city_sample_floor
+  - first:
+      4: 400010
+    second: city_sample_houses_1
+  - first:
+      4: 400012
+    second: city_sample_houses_2
+  - first:
+      4: 400014
+    second: city_sample_houses_3
+  - first:
+      4: 400016
+    second: city_sample_streets
+  - first:
+      4: 400018
+    second: Lamp
+  - first:
+      20: 2000000
+    second: Camera
+  - first:
+      21: 2100000
+    second: city_mat.005
+  - first:
+      21: 2100002
+    second: city_mat.004
+  - first:
+      21: 2100004
+    second: city_mat.003
+  - first:
+      21: 2100006
+    second: city_mat.002
+  - first:
+      21: 2100008
+    second: sidewalk_mat
+  - first:
+      21: 2100010
+    second: city_mat.001
+  - first:
+      21: 2100012
+    second: city_mat
+  - first:
+      23: 2300000
+    second: city_sample_canals
+  - first:
+      23: 2300002
+    second: city_sample_earth
+  - first:
+      23: 2300004
+    second: city_sample_floor
+  - first:
+      23: 2300006
+    second: city_sample_houses_1
+  - first:
+      23: 2300008
+    second: city_sample_houses_2
+  - first:
+      23: 2300010
+    second: city_sample_houses_3
+  - first:
+      23: 2300012
+    second: city_sample_streets
+  - first:
+      33: 3300000
+    second: city_sample_canals
+  - first:
+      33: 3300002
+    second: city_sample_earth
+  - first:
+      33: 3300004
+    second: city_sample_floor
+  - first:
+      33: 3300006
+    second: city_sample_houses_1
+  - first:
+      33: 3300008
+    second: city_sample_houses_2
+  - first:
+      33: 3300010
+    second: city_sample_houses_3
+  - first:
+      33: 3300012
+    second: city_sample_streets
+  - first:
+      43: 4300000
+    second: city_sample_streets
+  - first:
+      43: 4300002
+    second: city_sample_houses_3
+  - first:
+      43: 4300004
+    second: city_sample_houses_2
+  - first:
+      43: 4300006
+    second: city_sample_houses_1
+  - first:
+      43: 4300008
+    second: city_sample_floor
+  - first:
+      43: 4300010
+    second: city_sample_canals
+  - first:
+      43: 4300012
+    second: city_sample_earth
+  - first:
+      108: 10800000
+    second: Lamp
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -74,6 +172,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -85,24 +184,34 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -110,10 +219,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -123,14 +235,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.001
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

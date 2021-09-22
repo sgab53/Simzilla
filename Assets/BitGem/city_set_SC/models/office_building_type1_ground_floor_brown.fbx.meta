@@ -1,60 +1,152 @@
 fileFormatVersion: 2
 guid: 82885166e90424a51b221839c042f975
-timeCreated: 1527260975
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: door_back_office_left
-    100002: door_back_office_right
-    100004: door_front_office_left
-    100006: door_front_office_right
-    100008: door_leftside_office_left
-    100010: door_leftside_office_right
-    100012: door_rightside_office_left
-    100014: door_rightside_office_right
-    100016: //RootNode
-    400000: door_back_office_left
-    400002: door_back_office_right
-    400004: door_front_office_left
-    400006: door_front_office_right
-    400008: door_leftside_office_left
-    400010: door_leftside_office_right
-    400012: door_rightside_office_left
-    400014: door_rightside_office_right
-    400016: //RootNode
-    2100000: city_mat
-    2300000: door_back_office_left
-    2300002: door_back_office_right
-    2300004: door_front_office_left
-    2300006: door_front_office_right
-    2300008: door_leftside_office_left
-    2300010: door_leftside_office_right
-    2300012: door_rightside_office_left
-    2300014: door_rightside_office_right
-    2300016: //RootNode
-    3300000: door_back_office_left
-    3300002: door_back_office_right
-    3300004: door_front_office_left
-    3300006: door_front_office_right
-    3300008: door_leftside_office_left
-    3300010: door_leftside_office_right
-    3300012: door_rightside_office_left
-    3300014: door_rightside_office_right
-    3300016: //RootNode
-    4300000: office_building_type1_ground_floor_brown
-    4300002: door_front_office_right
-    4300004: door_front_office_left
-    4300006: door_rightside_office_left
-    4300008: door_rightside_office_right
-    4300010: door_back_office_left
-    4300012: door_back_office_right
-    4300014: door_leftside_office_left
-    4300016: door_leftside_office_right
-    9500000: //RootNode
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: door_back_office_left
+  - first:
+      1: 100002
+    second: door_back_office_right
+  - first:
+      1: 100004
+    second: door_front_office_left
+  - first:
+      1: 100006
+    second: door_front_office_right
+  - first:
+      1: 100008
+    second: door_leftside_office_left
+  - first:
+      1: 100010
+    second: door_leftside_office_right
+  - first:
+      1: 100012
+    second: door_rightside_office_left
+  - first:
+      1: 100014
+    second: door_rightside_office_right
+  - first:
+      1: 100016
+    second: //RootNode
+  - first:
+      4: 400000
+    second: door_back_office_left
+  - first:
+      4: 400002
+    second: door_back_office_right
+  - first:
+      4: 400004
+    second: door_front_office_left
+  - first:
+      4: 400006
+    second: door_front_office_right
+  - first:
+      4: 400008
+    second: door_leftside_office_left
+  - first:
+      4: 400010
+    second: door_leftside_office_right
+  - first:
+      4: 400012
+    second: door_rightside_office_left
+  - first:
+      4: 400014
+    second: door_rightside_office_right
+  - first:
+      4: 400016
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: city_mat
+  - first:
+      23: 2300000
+    second: door_back_office_left
+  - first:
+      23: 2300002
+    second: door_back_office_right
+  - first:
+      23: 2300004
+    second: door_front_office_left
+  - first:
+      23: 2300006
+    second: door_front_office_right
+  - first:
+      23: 2300008
+    second: door_leftside_office_left
+  - first:
+      23: 2300010
+    second: door_leftside_office_right
+  - first:
+      23: 2300012
+    second: door_rightside_office_left
+  - first:
+      23: 2300014
+    second: door_rightside_office_right
+  - first:
+      23: 2300016
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: door_back_office_left
+  - first:
+      33: 3300002
+    second: door_back_office_right
+  - first:
+      33: 3300004
+    second: door_front_office_left
+  - first:
+      33: 3300006
+    second: door_front_office_right
+  - first:
+      33: 3300008
+    second: door_leftside_office_left
+  - first:
+      33: 3300010
+    second: door_leftside_office_right
+  - first:
+      33: 3300012
+    second: door_rightside_office_left
+  - first:
+      33: 3300014
+    second: door_rightside_office_right
+  - first:
+      33: 3300016
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: office_building_type1_ground_floor_brown
+  - first:
+      43: 4300002
+    second: door_front_office_right
+  - first:
+      43: 4300004
+    second: door_front_office_left
+  - first:
+      43: 4300006
+    second: door_rightside_office_left
+  - first:
+      43: 4300008
+    second: door_rightside_office_right
+  - first:
+      43: 4300010
+    second: door_back_office_left
+  - first:
+      43: 4300012
+    second: door_back_office_right
+  - first:
+      43: 4300014
+    second: door_leftside_office_left
+  - first:
+      43: 4300016
+    second: door_leftside_office_right
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -71,6 +163,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -82,24 +175,34 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -107,10 +210,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -120,14 +226,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.001
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

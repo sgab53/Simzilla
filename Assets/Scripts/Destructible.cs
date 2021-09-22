@@ -6,6 +6,9 @@ using System.Collections;
 public class Destructible : MonoBehaviour
 {
     [SerializeField] private Transform slicedParent;
+    
+    private AudioSource crash;
+    private AudioSource shatter;
 
     LayerMask kaijuLayer = 6;
 
@@ -21,10 +24,24 @@ public class Destructible : MonoBehaviour
         {
             chunks.Add(slicedParent.GetChild(i).GetComponent<Collider>());
         }
+
+        var sources = GetComponentsInParent<AudioSource>();
+        crash = sources[0];
+        shatter = sources[1];
+
+        crash.volume = 0.1f;
+        shatter.volume = 0.06f;
     }
 
     public void Smash(Collision collision)
     {
+        crash.clip = AudioManager.Instance.GetCrushClip();
+        crash.pitch = Random.Range(1.0f, 1.5f);
+        crash.Play();
+        shatter.clip = AudioManager.Instance.GetShatterClip();
+        shatter.pitch = Random.Range(.75f, 1.2f);
+        shatter.Play();
+
         slicedParent.gameObject.SetActive(true);
         gameObject.SetActive(false);
 

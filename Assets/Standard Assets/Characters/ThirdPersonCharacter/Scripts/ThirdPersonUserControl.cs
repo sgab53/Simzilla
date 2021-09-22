@@ -49,6 +49,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             {
                 h = CrossPlatformInputManager.GetAxis("Horizontal");
                 v = CrossPlatformInputManager.GetAxis("Vertical");
+
             }
 
             bool mirror = h > 0.0f;

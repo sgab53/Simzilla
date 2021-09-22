@@ -26,6 +26,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedParent: {fileID: 0}
+  crash: {fileID: 0}
+  shatter: {fileID: 0}
   chunks: []
 --- !u!65 &8059393398898689921
 BoxCollider:
@@ -53,6 +55,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedParent: {fileID: 0}
+  crash: {fileID: 0}
+  shatter: {fileID: 0}
   chunks: []
 --- !u!65 &8231911349344438002
 BoxCollider:
@@ -80,6 +84,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedParent: {fileID: 0}
+  crash: {fileID: 0}
+  shatter: {fileID: 0}
   chunks: []
 --- !u!1 &3972223646426202830
 GameObject:
@@ -141,6 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slicedParent: {fileID: 0}
+  crash: {fileID: 0}
+  shatter: {fileID: 0}
   chunks: []
 --- !u!1001 &841118915601719314
 PrefabInstance:

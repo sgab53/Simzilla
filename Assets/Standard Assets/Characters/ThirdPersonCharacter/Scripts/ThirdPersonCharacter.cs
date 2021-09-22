@@ -29,6 +29,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
+		int m_ForwardAnim = Animator.StringToHash("Forward");
+		int m_TurnAnim = Animator.StringToHash("Turn");
+		int m_SwipeAnim = Animator.StringToHash("Swipe");
+		int m_SwipeMirrorAnim = Animator.StringToHash("SwipeMirror");
+
 		void Start()
 		{
 			m_Animator = GetComponent<Animator>();
@@ -91,25 +96,39 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 		public bool SwipeIsPlaying()
         {
-			return m_Animator.GetBool("Swipe") || m_Animator.GetBool("SwipeMirror");
+			return m_Animator.GetBool(m_SwipeAnim) || m_Animator.GetBool(m_SwipeMirrorAnim);
         }
 
 		void UpdateAnimator(Vector3 move, ref bool swipe, bool mirror)
 		{
 			// update the animator parameters
-			m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
-			m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
+			m_Animator.SetFloat(m_ForwardAnim, m_ForwardAmount, 0.1f, Time.deltaTime);
+			m_Animator.SetFloat(m_TurnAnim, m_TurnAmount, 0.1f, Time.deltaTime);
+
+			var fwd = m_Animator.GetFloat(m_ForwardAnim);
+			var trn = m_Animator.GetFloat(m_TurnAnim);
+
+			if (fwd <= 0.001f && fwd >= -0.001f)
+			{
+				m_Animator.SetFloat(m_ForwardAnim, 0.0f);
+			}
+
+			if (trn <= 0.1f && trn >= -0.1f)
+			{
+				m_Animator.SetFloat(m_TurnAnim, 0.0f);
+			}
+
 
             if (swipe)
             {
 				swipe = false;
 				if (mirror)
                 {
-					m_Animator.SetBool("SwipeMirror", true);
+					m_Animator.SetBool(m_SwipeMirrorAnim, true);
 				}
 				else
                 {
-					m_Animator.SetBool("Swipe", true);
+					m_Animator.SetBool(m_SwipeAnim, true);
                 }
             }
 
